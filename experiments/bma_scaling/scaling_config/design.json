@@ -1,0 +1,14 @@
+{
+  "cases": 20,
+  "datasets": 200,
+  "primary_searches": 800,
+  "ablation_searches": 20,
+  "primary_output_rows": 1200,
+  "hard_worker_seconds": 420,
+  "reference_seconds": 900,
+  "audit_worker_seconds": 1200,
+  "workers": 1,
+  "bootstrap_replicates": 2000,
+  "bootstrap_seed": 1703000100,
+  "data_generated": false
+}

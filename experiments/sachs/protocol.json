@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "targets": [
+    0.9,
+    0.95,
+    0.99
+  ],
+  "sachs": {
+    "variants": [
+      {
+        "name": "primary",
+        "ess": 1,
+        "absence": 0.8
+      },
+      {
+        "name": "ess_10",
+        "ess": 10,
+        "absence": 0.8
+      },
+      {
+        "name": "absence_060",
+        "ess": 1,
+        "absence": 0.6
+      }
+    ],
+    "max_mass_calls": 2000,
+    "max_seconds": 3600,
+    "orientation_cap": 1000000
+  }
+}

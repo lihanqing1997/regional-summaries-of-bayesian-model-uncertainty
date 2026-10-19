@@ -1,0 +1,3 @@
+design,datasets,supplied_terminal_regions,median_exposed_terminal_regions,stochastic_refinement,feasible,certified
+Pairs,300,59049,303.0,0,150,7
+Quartets,200,243,243.0,200,200,0

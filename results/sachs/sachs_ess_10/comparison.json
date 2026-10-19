@@ -1,0 +1,140 @@
+[
+  {
+    "target": 0.9,
+    "method": "ranked",
+    "status": "mass_target_met_numerically",
+    "retained_mass": 0.9709254019161929,
+    "cost": 11,
+    "cost_lower_bound": 11,
+    "mandatory_region_cost": 11,
+    "max_edge_error": 0.010223552553715098,
+    "selection_solver": {
+      "solver": "ranking",
+      "optimality_proven": false
+    },
+    "cost_gap_upper": 0.0,
+    "global_cost_optimal_numerically": true,
+    "entries": 1
+  },
+  {
+    "target": 0.9,
+    "method": "optimized",
+    "status": "mass_target_met_numerically",
+    "retained_mass": 0.9709254019161929,
+    "cost": 11,
+    "cost_lower_bound": 11,
+    "mandatory_region_cost": 11,
+    "max_edge_error": 0.010223552553715098,
+    "selection_solver": {
+      "solver": "HiGHS MILP",
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "optimality_proven": true,
+      "mip_gap": 0.0
+    },
+    "cost_gap_upper": 0.0,
+    "global_cost_optimal_numerically": true,
+    "entries": 1
+  },
+  {
+    "target": 0.95,
+    "method": "ranked",
+    "status": "mass_target_met_numerically",
+    "retained_mass": 0.9709254019161929,
+    "cost": 11,
+    "cost_lower_bound": 11,
+    "mandatory_region_cost": 11,
+    "max_edge_error": 0.010223552553715098,
+    "selection_solver": {
+      "solver": "ranking",
+      "optimality_proven": false
+    },
+    "cost_gap_upper": 0.0,
+    "global_cost_optimal_numerically": true,
+    "entries": 1
+  },
+  {
+    "target": 0.95,
+    "method": "optimized",
+    "status": "mass_target_met_numerically",
+    "retained_mass": 0.9709254019161929,
+    "cost": 11,
+    "cost_lower_bound": 11,
+    "mandatory_region_cost": 11,
+    "max_edge_error": 0.010223552553715098,
+    "selection_solver": {
+      "solver": "HiGHS MILP",
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "optimality_proven": true,
+      "mip_gap": 0.0
+    },
+    "cost_gap_upper": 0.0,
+    "global_cost_optimal_numerically": true,
+    "entries": 1
+  },
+  {
+    "target": 0.99,
+    "method": "ranked",
+    "status": "mass_target_met_numerically",
+    "retained_mass": 0.9907402623669053,
+    "cost": 33,
+    "cost_lower_bound": 32.09226167670221,
+    "mandatory_region_cost": 21,
+    "max_edge_error": 0.0021098620813104034,
+    "selection_solver": {
+      "solver": "ranking",
+      "optimality_proven": false
+    },
+    "cost_gap_upper": 0.9077383232977922,
+    "global_cost_optimal_numerically": true,
+    "entries": 3
+  },
+  {
+    "target": 0.99,
+    "method": "optimized",
+    "status": "mass_target_met_numerically",
+    "retained_mass": 0.9907402623669053,
+    "cost": 33,
+    "cost_lower_bound": 32.09226167670221,
+    "mandatory_region_cost": 21,
+    "max_edge_error": 0.0021098620813104034,
+    "selection_solver": {
+      "solver": "HiGHS MILP",
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "optimality_proven": true,
+      "mip_gap": 0.0
+    },
+    "cost_gap_upper": 0.9077383232977922,
+    "global_cost_optimal_numerically": true,
+    "entries": 3
+  },
+  {
+    "target": 0.9,
+    "method": "ranked_dags",
+    "status": "mass_target_met_numerically",
+    "retained_mass": 0.9012525142790676,
+    "cost": 4411,
+    "entries": 401,
+    "global_ranking_verified": true
+  },
+  {
+    "target": 0.95,
+    "method": "ranked_dags",
+    "status": "mass_target_met_numerically",
+    "retained_mass": 0.9506977893765644,
+    "cost": 4653,
+    "entries": 423,
+    "global_ranking_verified": true
+  },
+  {
+    "target": 0.99,
+    "method": "ranked_dags",
+    "status": "mass_target_met_numerically",
+    "retained_mass": 0.9900263215999628,
+    "cost": 10116,
+    "entries": 915,
+    "global_ranking_verified": false
+  }
+]

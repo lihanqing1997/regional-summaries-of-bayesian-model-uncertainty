@@ -1,0 +1,1262 @@
+[
+  {
+    "path": "src/bma/staged/adaptive.R",
+    "source_sha256": "12fd4b7dfa5f9c59c5de67c736b6f3440b6256f1a2731965a436290ca823b022",
+    "sha256": "12fd4b7dfa5f9c59c5de67c736b6f3440b6256f1a2731965a436290ca823b022",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/bma_confirmatory_20260929/adaptive.R"
+  },
+  {
+    "path": "src/bma/newton/adaptive.R",
+    "source_sha256": "2e5d620102f64d1ba4f7cb85609d59d22fa4e8ca35dac38c63c8011c8adf5479",
+    "sha256": "2e5d620102f64d1ba4f7cb85609d59d22fa4e8ca35dac38c63c8011c8adf5479",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/scaling_revision_20261002/core/adaptive.R"
+  },
+  {
+    "path": "src/bma/common/audit/audit.R",
+    "source_sha256": "083e959636ca92ece696612beb303754aeb46e7c385ec342e599155beecada28",
+    "sha256": "083e959636ca92ece696612beb303754aeb46e7c385ec342e599155beecada28",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/bma_confirmatory_20260929/audit/audit.R"
+  },
+  {
+    "path": "src/bma/common/audit/exact_reference.cpp",
+    "source_sha256": "566e70392feede33c15b6e333da9f190a762ccbf2826856bf94350470d1df36b",
+    "sha256": "566e70392feede33c15b6e333da9f190a762ccbf2826856bf94350470d1df36b",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/bma_confirmatory_20260929/audit/exact_reference.cpp"
+  },
+  {
+    "path": "src/bma/staged/base_study.R",
+    "source_sha256": "175dcbb2131aeeb484ee6d37826155e8c55ae8b7fb58dda2163679a87b11db53",
+    "sha256": "175dcbb2131aeeb484ee6d37826155e8c55ae8b7fb58dda2163679a87b11db53",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/bma_confirmatory_20260929/base_study.R"
+  },
+  {
+    "path": "src/bma/newton/base_study.R",
+    "source_sha256": "3124bc1e0dc09c63af575342152ab9d136ea43da865f07ff06c52c14bd726598",
+    "sha256": "3124bc1e0dc09c63af575342152ab9d136ea43da865f07ff06c52c14bd726598",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/scaling_revision_20261002/core/base_study.R"
+  },
+  {
+    "path": "src/bma/common/diagnostic.R",
+    "source_sha256": "bf24505da021d58b697be1aa2aa1120ca7404f1259ffe901c29479ff839c0b06",
+    "sha256": "bf24505da021d58b697be1aa2aa1120ca7404f1259ffe901c29479ff839c0b06",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/bma_confirmatory_20260929/diagnostic.R"
+  },
+  {
+    "path": "src/bma/common/evaluate.R",
+    "source_sha256": "a98642ede5283e33831f30e797318553269e85823b009d8bdd780709abe056a9",
+    "sha256": "a98642ede5283e33831f30e797318553269e85823b009d8bdd780709abe056a9",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/bma_confirmatory_20260929/evaluate.R"
+  },
+  {
+    "path": "src/bma/common/frozen_runner_source.R",
+    "source_sha256": "09d0a904ed2ff0a4745ea5d6371bb33af4d5b8f5bfddb7baefeca4249bc3e353",
+    "sha256": "dbd8db464750d66d2692e2736e6324a05221337554fe246b06bbc90a24a49b94",
+    "change": "Retain the exact run_one assignment; remove unused historical top-level launcher",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/bma_confirmatory_20260929/frozen_runner_source.R"
+  },
+  {
+    "path": "src/bma/common/integration.R",
+    "source_sha256": "298ff8bd1164f6f0978ff34e365c47c52d4e0a0194a02234d64a4c0fa77598a5",
+    "sha256": "298ff8bd1164f6f0978ff34e365c47c52d4e0a0194a02234d64a4c0fa77598a5",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/bma_confirmatory_20260929/integration.R"
+  },
+  {
+    "path": "src/bma/staged/load_repair.R",
+    "source_sha256": "a195db59c2a18189326b1f64a7b8fd078a84a1b5a66384958cb7fbbac757aa98",
+    "sha256": "a195db59c2a18189326b1f64a7b8fd078a84a1b5a66384958cb7fbbac757aa98",
+    "change": "Portable toolchain discovery from the matched-selector copy; mathematical routines unchanged",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/review_revision_20261001/core/load_repair.R"
+  },
+  {
+    "path": "src/bma/newton/load_repair.R",
+    "source_sha256": "76cbc080fc72526318c42fb29893516600543debc04999a770b6a287ec4c5f25",
+    "sha256": "76cbc080fc72526318c42fb29893516600543debc04999a770b6a287ec4c5f25",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/scaling_revision_20261002/core/load_repair.R"
+  },
+  {
+    "path": "src/bma/common/pilot.R",
+    "source_sha256": "63138146792a562c58df4574d584fe93ee877b6d64630fdb510021e64aabc84f",
+    "sha256": "63138146792a562c58df4574d584fe93ee877b6d64630fdb510021e64aabc84f",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/bma_confirmatory_20260929/pilot.R"
+  },
+  {
+    "path": "src/bma/common/production.R",
+    "source_sha256": "b818cb0310288551c0cc203fda151499b327dca06509d8a2eafa40cc2fea1775",
+    "sha256": "b818cb0310288551c0cc203fda151499b327dca06509d8a2eafa40cc2fea1775",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/bma_confirmatory_20260929/production.R"
+  },
+  {
+    "path": "src/bma/staged/refinement.R",
+    "source_sha256": "c317466ff22f153cfb1adb726d52201f480b0009573a4315f27878c8986f1238",
+    "sha256": "c317466ff22f153cfb1adb726d52201f480b0009573a4315f27878c8986f1238",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/bma_confirmatory_20260929/refinement.R"
+  },
+  {
+    "path": "src/bma/newton/refinement.R",
+    "source_sha256": "28556eaa398b315f6b5e943f138540ce70406cd7df8df3cd3c91aab32042ad52",
+    "sha256": "28556eaa398b315f6b5e943f138540ce70406cd7df8df3cd3c91aab32042ad52",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/scaling_revision_20261002/core/refinement.R"
+  },
+  {
+    "path": "src/bma/staged/sampling.R",
+    "source_sha256": "140e47955909bf2a631af57ea6b2233981b6ed38f187b66209cc7fc16232c9e6",
+    "sha256": "140e47955909bf2a631af57ea6b2233981b6ed38f187b66209cc7fc16232c9e6",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/bma_confirmatory_20260929/sampling.R"
+  },
+  {
+    "path": "src/bma/newton/sampling.R",
+    "source_sha256": "5ca32bd865d33bde0cecf0f924da41cfbf0014bee0137e942b2f626e7f46d057",
+    "sha256": "5ca32bd865d33bde0cecf0f924da41cfbf0014bee0137e942b2f626e7f46d057",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/scaling_revision_20261002/core/sampling.R"
+  },
+  {
+    "path": "src/bma/common/src/gaussian_mass_bound.R",
+    "source_sha256": "c5a8c0244a1662f99844dfbe179cd625472a24994fe01c609d4121f716a4e4af",
+    "sha256": "c5a8c0244a1662f99844dfbe179cd625472a24994fe01c609d4121f716a4e4af",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/bma_confirmatory_20260929/src/gaussian_mass_bound.R"
+  },
+  {
+    "path": "src/bma/newton/src/mass_conservation.R",
+    "source_sha256": "184563b3176c7ba76c1de98e20159f2a2ef84e1196afd3e8652728281b0dfae0",
+    "sha256": "184563b3176c7ba76c1de98e20159f2a2ef84e1196afd3e8652728281b0dfae0",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/scaling_revision_20261002/core/src/mass_conservation.R"
+  },
+  {
+    "path": "src/bma/newton/src/mass_conservation.cpp",
+    "source_sha256": "84f2b4d4f8b1aace747614a810ca759515bfee25d564f66ea0c9817a034288e9",
+    "sha256": "84f2b4d4f8b1aace747614a810ca759515bfee25d564f66ea0c9817a034288e9",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/scaling_revision_20261002/core/src/mass_conservation.cpp"
+  },
+  {
+    "path": "src/bma/staged/src/search_repair.R",
+    "source_sha256": "2cc7b7a2a35cec872e3ca0b1eea1a10db5b96f42b74f3f5c2d8e56b5dc36cfce",
+    "sha256": "2cc7b7a2a35cec872e3ca0b1eea1a10db5b96f42b74f3f5c2d8e56b5dc36cfce",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/bma_confirmatory_20260929/src/search_repair.R"
+  },
+  {
+    "path": "src/bma/newton/src/search_repair.R",
+    "source_sha256": "ce0b8d607de4eaebbcf3bfa5af35bda2575bbd0d7e6235ffec877f892d8cc720",
+    "sha256": "ce0b8d607de4eaebbcf3bfa5af35bda2575bbd0d7e6235ffec877f892d8cc720",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/scaling_revision_20261002/core/src/search_repair.R"
+  },
+  {
+    "path": "src/bma/common/src/selection.cpp",
+    "source_sha256": "6fb976d6f2be5ad168182bc3701677848d82e41c105b3c3f62f1d7b7cd166f65",
+    "sha256": "6fb976d6f2be5ad168182bc3701677848d82e41c105b3c3f62f1d7b7cd166f65",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/bma_confirmatory_20260929/src/selection.cpp"
+  },
+  {
+    "path": "src/bma/common/two_stage.R",
+    "source_sha256": "0a6add32017ab426fd0ec6b24ba99a4bd30ebf86979ffea0ce4b441176157c39",
+    "sha256": "0a6add32017ab426fd0ec6b24ba99a4bd30ebf86979ffea0ce4b441176157c39",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/bma_confirmatory_20260929/two_stage.R"
+  },
+  {
+    "path": "src/bma/common/vendor/exact_bma.R",
+    "source_sha256": "99b0502f98ba17cf6b6883b82d65368560ad324bbf15e2abc75923231de6008e",
+    "sha256": "99b0502f98ba17cf6b6883b82d65368560ad324bbf15e2abc75923231de6008e",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/bma_confirmatory_20260929/vendor/exact_bma.R"
+  },
+  {
+    "path": "src/bma/staged/vendor/exact_gaussian_helpers.R",
+    "source_sha256": "364fd2a78a8727235c14e4974ccb9a61f5965ddfe4a62e2dc3d2513f498dd191",
+    "sha256": "364fd2a78a8727235c14e4974ccb9a61f5965ddfe4a62e2dc3d2513f498dd191",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/bma_confirmatory_20260929/vendor/exact_gaussian_helpers.R"
+  },
+  {
+    "path": "src/bma/newton/vendor/exact_gaussian_helpers.R",
+    "source_sha256": "71a3c4e68192583e24a31fc88ae385d9c32a496a0b1d87d2ff66b465c90d96c1",
+    "sha256": "71a3c4e68192583e24a31fc88ae385d9c32a496a0b1d87d2ff66b465c90d96c1",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/scaling_revision_20261002/core/vendor/exact_gaussian_helpers.R"
+  },
+  {
+    "path": "src/bma/common/vendor/published_bma_comparators.R",
+    "source_sha256": "91d12be7f4e51a1f0b826648d003215d3c7dc7af9bc594c65558e89d3816f64f",
+    "sha256": "91d12be7f4e51a1f0b826648d003215d3c7dc7af9bc594c65558e89d3816f64f",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/bma_confirmatory_20260929/vendor/published_bma_comparators.R"
+  },
+  {
+    "path": "src/bma/staged/vendor/region_restricted_smc.R",
+    "source_sha256": "a2b8a0807c4a7c4b840a2c4ce4f462bebfd761a429bae01a3210429d2b1e47db",
+    "sha256": "a2b8a0807c4a7c4b840a2c4ce4f462bebfd761a429bae01a3210429d2b1e47db",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/bma_confirmatory_20260929/vendor/region_restricted_smc.R"
+  },
+  {
+    "path": "src/bma/newton/vendor/region_restricted_smc.R",
+    "source_sha256": "9f020e58a5c411728c83d06e4341d294c3b14392aae62fb61c95334d1dc19c34",
+    "sha256": "9f020e58a5c411728c83d06e4341d294c3b14392aae62fb61c95334d1dc19c34",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/scaling_revision_20261002/core/vendor/region_restricted_smc.R"
+  },
+  {
+    "path": "experiments/bma_components/config/study.json",
+    "source_sha256": "f8d70b4c5662ce7a06b7d61df13fd687debba2b72886dd6dbfcb67f43fac02c9",
+    "sha256": "f8d70b4c5662ce7a06b7d61df13fd687debba2b72886dd6dbfcb67f43fac02c9",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/bma_confirmatory_20260929/config/study.json"
+  },
+  {
+    "path": "experiments/bma_components/config/pilot.json",
+    "source_sha256": "94b31ac2b17d28d6bfa78de22d372e99c94baeb55978316a631768b5b93adfe6",
+    "sha256": "94b31ac2b17d28d6bfa78de22d372e99c94baeb55978316a631768b5b93adfe6",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/bma_confirmatory_20260929/config/pilot.json"
+  },
+  {
+    "path": "experiments/bma_components/config/cases.csv",
+    "source_sha256": "74713cf6d5b2eaa3a2bd3433af7020f4dc1428e96c5231ed5f095157c7490439",
+    "sha256": "74713cf6d5b2eaa3a2bd3433af7020f4dc1428e96c5231ed5f095157c7490439",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/bma_confirmatory_20260929/config/cases.csv"
+  },
+  {
+    "path": "experiments/bma_components/config/jobs.csv",
+    "source_sha256": "24d2e24e60ca2b937c8ce9f9cb7cf36b662cb872ac413bc974bc754b6f59bedb",
+    "sha256": "24d2e24e60ca2b937c8ce9f9cb7cf36b662cb872ac413bc974bc754b6f59bedb",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/bma_confirmatory_20260929/config/jobs.csv"
+  },
+  {
+    "path": "experiments/bma_components/config/conditions.csv",
+    "source_sha256": "50c471ccacb566006c3288b03c2e841a0987f6cfab86fc37f12efdbc1f8511db",
+    "sha256": "3a8c4e30f1dc0ee43c665265c5954851148728270d1a356fa99c93f7c091c271",
+    "change": "Exclude the unreported sampler-repeat family; preserve every other registered condition",
+    "original_rows": 10560,
+    "retained_rows": 10400,
+    "all_retained_field_strings_unchanged": true,
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/bma_confirmatory_20260929/config/conditions.csv"
+  },
+  {
+    "path": "experiments/bma_components/worker.R",
+    "source_sha256": "f50331d3d093b58b421b7f5071a3c27efe487acb1cb9bca85af80d9603aa1fc8",
+    "sha256": "f50331d3d093b58b421b7f5071a3c27efe487acb1cb9bca85af80d9603aa1fc8",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/bma_confirmatory_20260929/worker.R"
+  },
+  {
+    "path": "experiments/bma_components/collect.py",
+    "source_sha256": "939cc461a64593bcf571bd18bab2acfd5fe4fed804a35bb07b789684a6b26114",
+    "sha256": "ad5c2d51a0677ec3e10d7d9702f5da051d552fddedd4b093ce37082ecb770c2d",
+    "change": "Update the retained registry denominator to 10,400; collection logic unchanged",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/bma_confirmatory_20260929/summarize.py"
+  },
+  {
+    "path": "results/bma_components/outcomes.csv",
+    "source_sha256": "b64a9afb295ea4c2b898548dfaf45bddfb0e3305c2187d87f4620fe2e6144c2d",
+    "sha256": "f10f36f38b8e567236d8327d9de5c920c891cd37d27c7bc4c4f9f7b82067cb45",
+    "change": "Exclude only the unreported sampler-repeat family, including no filtering by outcome",
+    "original_rows": 10560,
+    "retained_rows": 10400,
+    "all_retained_field_strings_unchanged": true,
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/bma_confirmatory_20260929/report/all_planned_outcomes.csv"
+  },
+  {
+    "path": "results/bma_components/paired_comparisons.csv",
+    "source_sha256": "3f9b015c67546e6e97ad8777fd016a60d9c9a7e45c2dd68d34c6be8aedc16b9e",
+    "sha256": "3f9b015c67546e6e97ad8777fd016a60d9c9a7e45c2dd68d34c6be8aedc16b9e",
+    "change": "Byte-identical copy",
+    "origin_saved_file": "computation/analysis/bma_confirmatory_20261001/paired_comparisons.csv"
+  },
+  {
+    "path": "results/bma_components/exact_reference_comparators.csv",
+    "source_sha256": "0584668fe238ee20c3d847111304e0d17cbe2fe293bb7f7ef008e2dd93f0c0a1",
+    "sha256": "e2b67a3f4d4f98e0114b898bfe29bec4f05bdaddc3874947de9e149004075e6d",
+    "change": "Keep all 2,400 posterior-ranked-region oracle comparisons at the reported 90% target",
+    "original_rows": 28800,
+    "retained_rows": 2400,
+    "origin_saved_file": "computation/analysis/bma_confirmatory_20261001/exact_reference_comparators.csv"
+  },
+  {
+    "path": "results/bma_components/figure3_data.csv",
+    "source_sha256": "605eaebeb58b3d4eaacdba2a9bb8e9fbafb8a8ebed1ff583018b7ea43c546cb1",
+    "sha256": "605eaebeb58b3d4eaacdba2a9bb8e9fbafb8a8ebed1ff583018b7ea43c546cb1",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "manuscript_presentation/component_figure_data.csv"
+  },
+  {
+    "path": "results/bma_components/saved_trace_diagnostics.csv",
+    "source_sha256": "9a69ce4a0e15c34ea699f9b399341399046833a576081b6fd8b988dce8fc0a80",
+    "sha256": "9a69ce4a0e15c34ea699f9b399341399046833a576081b6fd8b988dce8fc0a80",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/method_revision_20261002/reanalysis/saved_trace_diagnostics.csv"
+  },
+  {
+    "path": "experiments/bma_scaling/make_scaling_data.R",
+    "source_sha256": "eb9b5acf0c0b986d5f310f499453bb1c24f99fe324b67abc7b309c1e5c1b22fa",
+    "sha256": "eb9b5acf0c0b986d5f310f499453bb1c24f99fe324b67abc7b309c1e5c1b22fa",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/scaling_revision_20261002/make_scaling_data.R"
+  },
+  {
+    "path": "experiments/bma_scaling/run_scaling_job.R",
+    "source_sha256": "262881c4e91ed1146ed7e98db3cf37b7c2fb957dd791eb5e249880d6c1e50057",
+    "sha256": "262881c4e91ed1146ed7e98db3cf37b7c2fb957dd791eb5e249880d6c1e50057",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/scaling_revision_20261002/run_scaling_job.R"
+  },
+  {
+    "path": "experiments/bma_scaling/audit_scaling_dataset.R",
+    "source_sha256": "51f08f97e0e70eccf034e9ca50c98036970d697e4fb44b802bcaa669c05f5831",
+    "sha256": "51f08f97e0e70eccf034e9ca50c98036970d697e4fb44b802bcaa669c05f5831",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/scaling_revision_20261002/audit_scaling_dataset.R"
+  },
+  {
+    "path": "experiments/bma_scaling/scaling_data.R",
+    "source_sha256": "15672319b4ef75927ccb3d35cd58dc597cfec37469dec25a717fa8c1feda7ef8",
+    "sha256": "15672319b4ef75927ccb3d35cd58dc597cfec37469dec25a717fa8c1feda7ef8",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/scaling_revision_20261002/scaling_data.R"
+  },
+  {
+    "path": "experiments/bma_scaling/scaling_reference.R",
+    "source_sha256": "8c443c12d78594cd16acf407d4e5c230d5169c872586e3c0455f9acd69b097bc",
+    "sha256": "8c443c12d78594cd16acf407d4e5c230d5169c872586e3c0455f9acd69b097bc",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/scaling_revision_20261002/scaling_reference.R"
+  },
+  {
+    "path": "experiments/bma_scaling/scaling_audit.R",
+    "source_sha256": "d5738ee461b0f2947a9907d68f88157641a613f1a0a2c6bc478f8db90e7f4418",
+    "sha256": "d5738ee461b0f2947a9907d68f88157641a613f1a0a2c6bc478f8db90e7f4418",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/scaling_revision_20261002/scaling_audit.R"
+  },
+  {
+    "path": "experiments/bma_scaling/competitors/mc3.R",
+    "source_sha256": "72b6734660ca9d59fa43feccdc58cdd365e1a583ca3283d311d71c32484938bc",
+    "sha256": "72b6734660ca9d59fa43feccdc58cdd365e1a583ca3283d311d71c32484938bc",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/scaling_revision_20261002/competitors/mc3.R"
+  },
+  {
+    "path": "experiments/bma_scaling/native/scaling_reference.cpp",
+    "source_sha256": "674c35828c168ab2aa413a7f63e216d144f8271b243691aa991c04e31e34e049",
+    "sha256": "674c35828c168ab2aa413a7f63e216d144f8271b243691aa991c04e31e34e049",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/scaling_revision_20261002/native/scaling_reference.cpp"
+  },
+  {
+    "path": "experiments/bma_scaling/scaling_config/cases.csv",
+    "source_sha256": "bfcecfb4188ba465e0abb91ba1e6ab6289499cbb08f34a4061b3919c15d90070",
+    "sha256": "bfcecfb4188ba465e0abb91ba1e6ab6289499cbb08f34a4061b3919c15d90070",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/scaling_revision_20261002/scaling_config/cases.csv"
+  },
+  {
+    "path": "experiments/bma_scaling/scaling_config/datasets.csv",
+    "source_sha256": "926feb7db7742ab37416e9352439a4a777a28200f9a181be36dbf930846cb977",
+    "sha256": "926feb7db7742ab37416e9352439a4a777a28200f9a181be36dbf930846cb977",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/scaling_revision_20261002/scaling_config/datasets.csv"
+  },
+  {
+    "path": "experiments/bma_scaling/scaling_config/design.json",
+    "source_sha256": "ea6a811c44e70a0a7c639fe13fc9b86b25ccf99e208d57468c3ffc8d22348e2c",
+    "sha256": "ea6a811c44e70a0a7c639fe13fc9b86b25ccf99e208d57468c3ffc8d22348e2c",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/scaling_revision_20261002/scaling_config/design.json"
+  },
+  {
+    "path": "experiments/bma_scaling/scaling_config/jobs.csv",
+    "source_sha256": "dc4a54f472c6f22e82694bd16195d824e445da521d7e68e6f51a614abc8b6bc6",
+    "sha256": "6615c6ec8bb29e17d8d82797152763674519d4f07e47fa66fe58474273390122",
+    "change": "Exclude the unreported optimizer ablation; original IDs and seeds preserved",
+    "original_rows": 820,
+    "retained_rows": 800,
+    "all_retained_field_strings_unchanged": true,
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/scaling_revision_20261002/scaling_config/jobs.csv"
+  },
+  {
+    "path": "results/bma_scaling/outcomes.csv",
+    "source_sha256": "4c8929d3690660f7dc665000bf73a212e18a7ecea24577780232d73621b42aae",
+    "sha256": "5c526bc42d3b4bb20100752b90d69073461640bc77c5c620b2b914ced38e91ef",
+    "change": "Exclude only the 20 unreported optimizer-ablation outcomes; keep all 1,200 outcomes for reported methods",
+    "original_rows": 1220,
+    "retained_rows": 1200,
+    "all_retained_field_strings_unchanged": true,
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/scaling_revision_20261002/scaling_results/outcomes.csv"
+  },
+  {
+    "path": "results/bma_scaling/pooled.csv",
+    "source_sha256": "a00f9c578a9bcc046444bbb03662ef56b274dc23ccabfaeec84180c49f975694",
+    "sha256": "fb1d479e84fc5bc839f3cc752cf6701d009f0aaa4cd873502c5493e2f8490e22",
+    "change": "Exclude only rows involving the unreported optimizer ablation",
+    "original_rows": 13,
+    "retained_rows": 12,
+    "all_retained_field_strings_unchanged": true,
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/scaling_revision_20261002/analysis/pooled.csv"
+  },
+  {
+    "path": "results/bma_scaling/by_condition.csv",
+    "source_sha256": "2f3cfef88de790d952dd47f643f0650eb7456f730643179882a1ea354c63e84c",
+    "sha256": "4101d59834b0a4956654aa50a1de5a0d6dfcc2e497ac037631b4920a2f486a42",
+    "change": "Exclude only rows involving the unreported optimizer ablation",
+    "original_rows": 124,
+    "retained_rows": 120,
+    "all_retained_field_strings_unchanged": true,
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/scaling_revision_20261002/analysis/by_condition.csv"
+  },
+  {
+    "path": "results/bma_scaling/by_dimension.csv",
+    "source_sha256": "fd1f519fcb9b7e95ee35cc51932bd2a59100b2ef1e53e33901db0b76e94694b2",
+    "sha256": "282bb3335136dbb018640718b64d656e3ba9b71b31a4dd699e211c854654a56e",
+    "change": "Exclude only rows involving the unreported optimizer ablation",
+    "original_rows": 60,
+    "retained_rows": 60,
+    "all_retained_field_strings_unchanged": true,
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/scaling_revision_20261002/analysis/by_dimension.csv"
+  },
+  {
+    "path": "results/bma_scaling/statuses.csv",
+    "source_sha256": "0697065cf3b927a3c9e7dd858b625db4b23dfbce0f239f84c0c0eae74aa9248c",
+    "sha256": "b178cd65084179fa14b980988a7f947866a7a35b1f08f8825cc16ce8a61630cb",
+    "change": "Exclude only rows involving the unreported optimizer ablation",
+    "original_rows": 18,
+    "retained_rows": 17,
+    "all_retained_field_strings_unchanged": true,
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/scaling_revision_20261002/analysis/statuses.csv"
+  },
+  {
+    "path": "results/bma_scaling/paired_bootstrap.csv",
+    "source_sha256": "5f21ad182e6b827f3e7381166f34fc5abae72d12807c1f091e09cb5641689dff",
+    "sha256": "60db547cbe0c4958d90d9dae19e2e234aa7e94e5ed29f7913708b3bb2ae33bb7",
+    "change": "Exclude only rows involving the unreported optimizer ablation",
+    "original_rows": 15,
+    "retained_rows": 14,
+    "all_retained_field_strings_unchanged": true,
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/scaling_revision_20261002/analysis/paired_bootstrap.csv"
+  },
+  {
+    "path": "experiments/bma_selectors/run_job.R",
+    "source_sha256": "ac6fac6e34a33055e8a1d0ccba6b2175f65b0618c3709cbd0135ed3d84d9d1ac",
+    "sha256": "ac6fac6e34a33055e8a1d0ccba6b2175f65b0618c3709cbd0135ed3d84d9d1ac",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/review_revision_20261001/run_job.R"
+  },
+  {
+    "path": "experiments/bma_selectors/ranking.R",
+    "source_sha256": "19ba1d196e468d9d46af34f63ffb09e7d8c8042af26d06ca3b1988a8024c18ac",
+    "sha256": "19ba1d196e468d9d46af34f63ffb09e7d8c8042af26d06ca3b1988a8024c18ac",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/review_revision_20261001/ranking.R"
+  },
+  {
+    "path": "experiments/bma_selectors/ranked_prefix.cpp",
+    "source_sha256": "c39c5bfa70715b0f5174aced6c8900e6dff16ab70dcf7f6236715dfcb980a4b2",
+    "sha256": "c39c5bfa70715b0f5174aced6c8900e6dff16ab70dcf7f6236715dfcb980a4b2",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/review_revision_20261001/ranked_prefix.cpp"
+  },
+  {
+    "path": "experiments/bma_selectors/real_audit.R",
+    "source_sha256": "a916de2e3c33d4dbed0d8091693eb35f3faf673721adc663263d044f68745fb0",
+    "sha256": "a916de2e3c33d4dbed0d8091693eb35f3faf673721adc663263d044f68745fb0",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/review_revision_20261001/real_audit.R"
+  },
+  {
+    "path": "experiments/bma_selectors/jobs.csv",
+    "source_sha256": "025abb22a03a55f0aa4a2eb30bc3979265996b34689dd181538c57b567f936a0",
+    "sha256": "641cca7f49fde1b23cd435a24e9609612d85318b02bb2a2def0ba3d4ba489005",
+    "change": "Keep the 48 synthetic datasets underlying the reported matched-selector comparison",
+    "original_rows": 54,
+    "retained_rows": 48,
+    "all_retained_field_strings_unchanged": true,
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/review_revision_20261001/jobs.csv"
+  },
+  {
+    "path": "results/bma_selectors/outcomes.csv",
+    "source_sha256": "aaf6993d8382b2f7746b30085282865837d65a083c00a8d6bc8e77def36baae7",
+    "sha256": "e404a94b6d0c68d04efd734c933db7946add1fe5058ad95792014d7f45de526b",
+    "change": "Keep all three methods on all 48 reported synthetic datasets, 144 outcomes",
+    "original_rows": 162,
+    "retained_rows": 144,
+    "all_retained_field_strings_unchanged": true,
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/review_revision_20261001/outcomes.csv"
+  },
+  {
+    "path": "experiments/tecator/run.R",
+    "source_sha256": "20ee344ce2dfb230eeb2f11461ec961caae6e9449c2dcc1b71e3642b66fe0e65",
+    "sha256": "bc0d5ff2abad618f1e1e26181e366ca79ffb2eb283e24fae7407f76706266463",
+    "change": "Remove the two unreported synthetic validation jobs; the first six Tecator jobs, seeds and calculations are unchanged",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/method_revision_20261002/validation/run_numerical_end_to_end.R"
+  },
+  {
+    "path": "experiments/tecator/real_audit.R",
+    "source_sha256": "a916de2e3c33d4dbed0d8091693eb35f3faf673721adc663263d044f68745fb0",
+    "sha256": "a916de2e3c33d4dbed0d8091693eb35f3faf673721adc663263d044f68745fb0",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/method_revision_20261002/real_audit.R"
+  },
+  {
+    "path": "data/tecator/tecator.csv",
+    "source_sha256": "179905c83d951615e04e0eb38b83191d2faca0ed4ad082295b4293f119ceaeb7",
+    "sha256": "179905c83d951615e04e0eb38b83191d2faca0ed4ad082295b4293f119ceaeb7",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/method_revision_20261002/data/tecator.csv"
+  },
+  {
+    "path": "data/tecator/tecator_source.txt",
+    "source_sha256": "e435c0538cd706473d87525da595d75dbff43a58bf2694104bd948081c3790d7",
+    "sha256": "e435c0538cd706473d87525da595d75dbff43a58bf2694104bd948081c3790d7",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/method_revision_20261002/data/tecator_source.txt"
+  },
+  {
+    "path": "results/tecator/records/tecator_sigma_0.25_eps_0.05.rds",
+    "source_sha256": "d667db834ce05e02ecd85c153ed896820ec4d7aaf8de9e75dfb41c4cff637a3f",
+    "sha256": "d667db834ce05e02ecd85c153ed896820ec4d7aaf8de9e75dfb41c4cff637a3f",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/method_revision_20261002/validation/results/numerical_end_to_end/tecator_sigma_0.25_eps_0.05.rds"
+  },
+  {
+    "path": "results/tecator/records/tecator_sigma_0.25_eps_0.05_audit.rds",
+    "source_sha256": "cf4b03102a2eeb2f01340a99a8a384adc1c9d5fd0b8e223d35495bbcdc634656",
+    "sha256": "cf4b03102a2eeb2f01340a99a8a384adc1c9d5fd0b8e223d35495bbcdc634656",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/method_revision_20261002/validation/results/numerical_end_to_end/tecator_sigma_0.25_eps_0.05_audit.rds"
+  },
+  {
+    "path": "results/tecator/records/tecator_sigma_0.25_eps_0.1.rds",
+    "source_sha256": "401ee149722b32323f6d3ca943891568b8e03cb43d8827df049cc3359a87b485",
+    "sha256": "401ee149722b32323f6d3ca943891568b8e03cb43d8827df049cc3359a87b485",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/method_revision_20261002/validation/results/numerical_end_to_end/tecator_sigma_0.25_eps_0.1.rds"
+  },
+  {
+    "path": "results/tecator/records/tecator_sigma_0.25_eps_0.1_audit.rds",
+    "source_sha256": "ab9b500d1967d91179af5c548ee593225e6e4c61cb95e49f9e363e7a05b61b48",
+    "sha256": "ab9b500d1967d91179af5c548ee593225e6e4c61cb95e49f9e363e7a05b61b48",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/method_revision_20261002/validation/results/numerical_end_to_end/tecator_sigma_0.25_eps_0.1_audit.rds"
+  },
+  {
+    "path": "results/tecator/records/tecator_sigma_0.25_reference.rds",
+    "source_sha256": "e86b64d065c9042533b291b1e9cef509325a670a126ccf9dfe541c1f5c5aace2",
+    "sha256": "e86b64d065c9042533b291b1e9cef509325a670a126ccf9dfe541c1f5c5aace2",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/method_revision_20261002/validation/results/numerical_end_to_end/tecator_sigma_0.25_reference.rds"
+  },
+  {
+    "path": "results/tecator/records/tecator_sigma_0.5_eps_0.05.rds",
+    "source_sha256": "72b5fc67434486c6a9088aae03ef7187f26bf7c76e8202032760885c500d7f43",
+    "sha256": "72b5fc67434486c6a9088aae03ef7187f26bf7c76e8202032760885c500d7f43",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/method_revision_20261002/validation/results/numerical_end_to_end/tecator_sigma_0.5_eps_0.05.rds"
+  },
+  {
+    "path": "results/tecator/records/tecator_sigma_0.5_eps_0.05_audit.rds",
+    "source_sha256": "58de38903cd4c32c9d2f1c5e0693f6c38ec86b6e210b722c1a6fa70b90bacbaf",
+    "sha256": "58de38903cd4c32c9d2f1c5e0693f6c38ec86b6e210b722c1a6fa70b90bacbaf",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/method_revision_20261002/validation/results/numerical_end_to_end/tecator_sigma_0.5_eps_0.05_audit.rds"
+  },
+  {
+    "path": "results/tecator/records/tecator_sigma_0.5_eps_0.1.rds",
+    "source_sha256": "6d8a58c5f696461fd9d71a3311dac7f94bb2603c2ecb5c1a6f8f95d3da14449c",
+    "sha256": "6d8a58c5f696461fd9d71a3311dac7f94bb2603c2ecb5c1a6f8f95d3da14449c",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/method_revision_20261002/validation/results/numerical_end_to_end/tecator_sigma_0.5_eps_0.1.rds"
+  },
+  {
+    "path": "results/tecator/records/tecator_sigma_0.5_eps_0.1_audit.rds",
+    "source_sha256": "b1620d36345367651e872c51627046a7ae1a24ce4893890ea8ee1dda03a70f6e",
+    "sha256": "b1620d36345367651e872c51627046a7ae1a24ce4893890ea8ee1dda03a70f6e",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/method_revision_20261002/validation/results/numerical_end_to_end/tecator_sigma_0.5_eps_0.1_audit.rds"
+  },
+  {
+    "path": "results/tecator/records/tecator_sigma_0.5_reference.rds",
+    "source_sha256": "a29dd51956bfbe1b6201d6b9b2ba8687004d7fb51aa5bbcb2e9c3aa6d53e824c",
+    "sha256": "a29dd51956bfbe1b6201d6b9b2ba8687004d7fb51aa5bbcb2e9c3aa6d53e824c",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/method_revision_20261002/validation/results/numerical_end_to_end/tecator_sigma_0.5_reference.rds"
+  },
+  {
+    "path": "results/tecator/records/tecator_sigma_1_eps_0.05.rds",
+    "source_sha256": "104d191c832b5b7ac3443692df7a5c6b254ec0ab1fce99087b806e6d73b5be20",
+    "sha256": "104d191c832b5b7ac3443692df7a5c6b254ec0ab1fce99087b806e6d73b5be20",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/method_revision_20261002/validation/results/numerical_end_to_end/tecator_sigma_1_eps_0.05.rds"
+  },
+  {
+    "path": "results/tecator/records/tecator_sigma_1_eps_0.05_audit.rds",
+    "source_sha256": "2cf9cb74f45545221e9a7433bb68780735596477d42ba94d2e37582fdeddf642",
+    "sha256": "2cf9cb74f45545221e9a7433bb68780735596477d42ba94d2e37582fdeddf642",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/method_revision_20261002/validation/results/numerical_end_to_end/tecator_sigma_1_eps_0.05_audit.rds"
+  },
+  {
+    "path": "results/tecator/records/tecator_sigma_1_eps_0.1.rds",
+    "source_sha256": "8ee83067e7d837e8e10771386732be9a6d0ecb0fa9200fe3b3c6224cfec69a7b",
+    "sha256": "8ee83067e7d837e8e10771386732be9a6d0ecb0fa9200fe3b3c6224cfec69a7b",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/method_revision_20261002/validation/results/numerical_end_to_end/tecator_sigma_1_eps_0.1.rds"
+  },
+  {
+    "path": "results/tecator/records/tecator_sigma_1_eps_0.1_audit.rds",
+    "source_sha256": "e70be83f7192901ac45a10fbeb19f4f7c1c6cdc96cf4a867b2a816cc2afcd676",
+    "sha256": "e70be83f7192901ac45a10fbeb19f4f7c1c6cdc96cf4a867b2a816cc2afcd676",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/method_revision_20261002/validation/results/numerical_end_to_end/tecator_sigma_1_eps_0.1_audit.rds"
+  },
+  {
+    "path": "results/tecator/records/tecator_sigma_1_reference.rds",
+    "source_sha256": "2a86d3b70c014f9ca623875c9a758057c0ec295aef9984cb4fcede675f138bdc",
+    "sha256": "2a86d3b70c014f9ca623875c9a758057c0ec295aef9984cb4fcede675f138bdc",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/method_revision_20261002/validation/results/numerical_end_to_end/tecator_sigma_1_reference.rds"
+  },
+  {
+    "path": "results/tecator/outcomes.csv",
+    "source_sha256": "53d5dd244f2c2af0d8be34c35efe7dae2803da0cf8a324cf7fd600982f074e55",
+    "sha256": "ac46393b121f6ebee99277f8fcbe6d5cfac3b2e0bcc9ba9a82b96c2425174bb4",
+    "change": "Keep all six reported Tecator conditions",
+    "original_rows": 8,
+    "retained_rows": 6,
+    "all_retained_field_strings_unchanged": true,
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/method_revision_20261002/validation/results/numerical_end_to_end/outcomes.csv"
+  },
+  {
+    "path": "results/tecator/real_patterns.csv",
+    "source_sha256": "8eb438b58a5c992e811d943ba829b5a17fbb5f101bcdf97a2f3463f698ee5d72",
+    "sha256": "8eb438b58a5c992e811d943ba829b5a17fbb5f101bcdf97a2f3463f698ee5d72",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/review_revision_20261001/real_patterns.csv"
+  },
+  {
+    "path": "results/tecator/real_group_queries.csv",
+    "source_sha256": "23f783c0fc2b14de13a28f748ae1831501904e564ecfbb77571f2afb6d30e3dd",
+    "sha256": "23f783c0fc2b14de13a28f748ae1831501904e564ecfbb77571f2afb6d30e3dd",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/review_revision_20261001/real_group_queries.csv"
+  },
+  {
+    "path": "results/tecator/real_channel_queries.csv",
+    "source_sha256": "a2cbcdd688a21811f040f1e26332138ee9f197ddfbfa35f67f6b34d52f4e667b",
+    "sha256": "a2cbcdd688a21811f040f1e26332138ee9f197ddfbfa35f67f6b34d52f4e667b",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/review_revision_20261001/real_channel_queries.csv"
+  },
+  {
+    "path": "results/tecator/real_interpretation.json",
+    "source_sha256": "4bd433133d3b84dbafe08d2f69d79174260b332fb7e610d59c8960ccf7364fb8",
+    "sha256": "e188c08372707ca1c5144711dece76bc601dfa7932e79650e922efab38da7c28",
+    "change": "Retain joint-union interpretation and prediction values; current search bounds are in outcomes.csv and records/, not the earlier interpretation record",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/review_revision_20261001/real_interpretation.json"
+  },
+  {
+    "path": "experiments/tecator/interpret.R",
+    "source_sha256": "66812d09bc14af89c6c9b732d3af4bde12b4267e629aac5cf136491db0c55998",
+    "sha256": "0579a7b91585c25d58c007401f3f3b2741385161a49bab30cfdb0cd22033519f",
+    "change": "Read the current saved Tecator record and omit the unreported cost-sensitivity calculation; prediction and interpretation formulas retained",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/review_revision_20261001/interpret_real.R"
+  },
+  {
+    "path": "experiments/bayesian_network/sim/run_bayesian_network_study.R",
+    "source_sha256": "1ccc8265e7c0a0737997091c4a6ad6aafa33a58c6785d0fbbced13bf217b26d6",
+    "sha256": "1ccc8265e7c0a0737997091c4a6ad6aafa33a58c6785d0fbbced13bf217b26d6",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "bayesian_network_exact/sim/run_bayesian_network_study.R"
+  },
+  {
+    "path": "experiments/bayesian_network/sim/summarize_bayesian_network_study.R",
+    "source_sha256": "68e65f288ac4ae7c785d628a2489c5bf4dde2a98cbce9a847ee9d51080e181ba",
+    "sha256": "68e65f288ac4ae7c785d628a2489c5bf4dde2a98cbce9a847ee9d51080e181ba",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "bayesian_network_exact/sim/summarize_bayesian_network_study.R"
+  },
+  {
+    "path": "experiments/bayesian_network/sim/run_bayesian_network_unit_tests.R",
+    "source_sha256": "d052ccdcb656cf4fb86fd96b99128e64dd61d4a3dd61d35741553b59f5a63ea5",
+    "sha256": "d052ccdcb656cf4fb86fd96b99128e64dd61d4a3dd61d35741553b59f5a63ea5",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "bayesian_network_exact/sim/run_bayesian_network_unit_tests.R"
+  },
+  {
+    "path": "experiments/bayesian_network/sim/config/bayesian_network_protocol.yml",
+    "source_sha256": "b25fb69481962beea0a81a70690b39e1be910c4a2abb379eb4f96a1518b8c3bc",
+    "sha256": "b25fb69481962beea0a81a70690b39e1be910c4a2abb379eb4f96a1518b8c3bc",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "bayesian_network_exact/sim/config/bayesian_network_protocol.yml"
+  },
+  {
+    "path": "src/bayesian_network/exact_bayesian_network_helpers.R",
+    "source_sha256": "b062377be435a0458ec74f77be160807e0c3458b848353b6dfee4bfff37e4852",
+    "sha256": "b062377be435a0458ec74f77be160807e0c3458b848353b6dfee4bfff37e4852",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "bayesian_network_exact/sim/src/exact_bayesian_network_helpers.R"
+  },
+  {
+    "path": "results/bayesian_network/bayesian_network_exact.csv",
+    "source_sha256": "662534c54d21b738c8adcfefc4fdace2aa7bd9236cefab905e227a99c5045057",
+    "sha256": "662534c54d21b738c8adcfefc4fdace2aa7bd9236cefab905e227a99c5045057",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "bayesian_network_exact/sim/output/bayesian_network/bayesian_network_exact.csv"
+  },
+  {
+    "path": "results/bayesian_network/bayesian_network_summary.csv",
+    "source_sha256": "cb725c25cdb5d0f3f62ead58e7a4b2a35141503658fffec62613853c267c02bf",
+    "sha256": "cb725c25cdb5d0f3f62ead58e7a4b2a35141503658fffec62613853c267c02bf",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "bayesian_network_exact/sim/output/bayesian_network/bayesian_network_summary.csv"
+  },
+  {
+    "path": "results/bayesian_network/bayesian_network_audit.csv",
+    "source_sha256": "98717f1d488fded25b1bc88c322fb930e3d4e336d99ca0a5d3577b9ce7a0c73b",
+    "sha256": "98717f1d488fded25b1bc88c322fb930e3d4e336d99ca0a5d3577b9ce7a0c73b",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "bayesian_network_exact/sim/output/bayesian_network/bayesian_network_audit.csv"
+  },
+  {
+    "path": "src/sachs/network.py",
+    "source_sha256": "2c945fd27d104481a3b2b2812cc5889528e3cae6f20572583f29d32386fb0777",
+    "sha256": "2c945fd27d104481a3b2b2812cc5889528e3cae6f20572583f29d32386fb0777",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "historical_real_data/real_data/network.py"
+  },
+  {
+    "path": "data/sachs/processed/sachs_observed_bin_ranges.json",
+    "source_sha256": "af806c99a77d26aa0b6a2846c2582c51f71572b248d4b955a0e70c31afda41e2",
+    "sha256": "af806c99a77d26aa0b6a2846c2582c51f71572b248d4b955a0e70c31afda41e2",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "historical_real_data/real_data/data/processed/sachs_observed_bin_ranges.json"
+  },
+  {
+    "path": "data/sachs/processed/sachs_discrete.csv",
+    "source_sha256": "3c9130a74b21cc59572467fe1cdbe4090314aa6b3f3d9137c7653706c141cd9f",
+    "sha256": "3c9130a74b21cc59572467fe1cdbe4090314aa6b3f3d9137c7653706c141cd9f",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "historical_real_data/real_data/data/processed/sachs_discrete.csv"
+  },
+  {
+    "path": "data/sachs/processed/sachs.npz",
+    "source_sha256": "067d093606df29d11ea2f46db336235512a632e5f3148442ef74a505e060883e",
+    "sha256": "067d093606df29d11ea2f46db336235512a632e5f3148442ef74a505e060883e",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "historical_real_data/real_data/data/processed/sachs.npz"
+  },
+  {
+    "path": "data/sachs/raw/sachs.discretised.txt.gz",
+    "source_sha256": "38f9dc827808948fb76dc20ce8bec7bcad2f5e903eeea5627701d8d0cb2ddeb6",
+    "sha256": "38f9dc827808948fb76dc20ce8bec7bcad2f5e903eeea5627701d8d0cb2ddeb6",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "historical_real_data/real_data/data/raw/sachs.discretised.txt.gz"
+  },
+  {
+    "path": "data/sachs/raw/sachs.data.txt.gz",
+    "source_sha256": "3b65a3c4fe642d8f9f9562fe798edbafd5aaefe80caecd7f9ec5dea2fbe86d03",
+    "sha256": "3b65a3c4fe642d8f9f9562fe798edbafd5aaefe80caecd7f9ec5dea2fbe86d03",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "historical_real_data/real_data/data/raw/sachs.data.txt.gz"
+  },
+  {
+    "path": "results/sachs/sachs_primary/summary.json",
+    "source_sha256": "349e1a8cc0a31839602a011af902299f9df51bf14e07c21e42bdb4912d7c5d61",
+    "sha256": "349e1a8cc0a31839602a011af902299f9df51bf14e07c21e42bdb4912d7c5d61",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "historical_real_data/real_data/results/sachs_primary/summary.json"
+  },
+  {
+    "path": "results/sachs/sachs_primary/comparison.json",
+    "source_sha256": "529c17a869a892b0331e4cc6c9b72459a112b175679aa4de46be537516d5bc1b",
+    "sha256": "4ecee9a1c79231d510c551b707dc86eef1db5bcc79912f0485edb2270cd01845",
+    "change": "Remove the unreported mass-per-cost ranking; all reported methods, targets and numeric values retained",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "historical_real_data/real_data/results/sachs_primary/comparison.json"
+  },
+  {
+    "path": "results/sachs/sachs_primary/skeletons.json",
+    "source_sha256": "e5f5b60614336964e77bf99ae273ee406ba5197df399583809da5973b31d23bb",
+    "sha256": "e5f5b60614336964e77bf99ae273ee406ba5197df399583809da5973b31d23bb",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "historical_real_data/real_data/results/sachs_primary/skeletons.json"
+  },
+  {
+    "path": "results/sachs/sachs_primary/mass_cache.json",
+    "source_sha256": "2eb4f62d8c127ec74cd022488d0669a2859bdf74480ccd2458bfeca520a1372b",
+    "sha256": "2eb4f62d8c127ec74cd022488d0669a2859bdf74480ccd2458bfeca520a1372b",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "historical_real_data/real_data/results/sachs_primary/mass_cache.json"
+  },
+  {
+    "path": "results/sachs/sachs_primary/selections.json",
+    "source_sha256": "99b7e4cafd11b6f65f44847916f44056cf1286ba33425faf3c2c4c07324b46aa",
+    "sha256": "9b5f6cf6676f84250da4697241da46a965d0d8adf9b2a5c8ac4ecd4fee1e87a2",
+    "change": "Remove the unreported mass-per-cost ranking; all reported methods, targets and numeric values retained",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "historical_real_data/real_data/results/sachs_primary/selections.json"
+  },
+  {
+    "path": "results/sachs/sachs_primary/local_scores.npy",
+    "source_sha256": "34de6121a3eb94c6ce6e65a54a361abe9bbc52b484da07039d1fe57cfac7e21f",
+    "sha256": "34de6121a3eb94c6ce6e65a54a361abe9bbc52b484da07039d1fe57cfac7e21f",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "historical_real_data/real_data/results/sachs_primary/local_scores.npy"
+  },
+  {
+    "path": "results/sachs/sachs_primary/edge_probabilities.csv",
+    "source_sha256": "288e8381b9fe9c2562867d6e1118ebcc9ce9afd574712df96b14c308b4856699",
+    "sha256": "288e8381b9fe9c2562867d6e1118ebcc9ce9afd574712df96b14c308b4856699",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "historical_real_data/real_data/results/sachs_primary/edge_probabilities.csv"
+  },
+  {
+    "path": "results/sachs/sachs_ess_10/summary.json",
+    "source_sha256": "439615d772a0be42d18ef52cb47c89fadea28e564283078b066f102d7ae3984c",
+    "sha256": "439615d772a0be42d18ef52cb47c89fadea28e564283078b066f102d7ae3984c",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "historical_real_data/real_data/results/sachs_ess_10/summary.json"
+  },
+  {
+    "path": "results/sachs/sachs_ess_10/comparison.json",
+    "source_sha256": "42106aa3b331ad26ebc8021075973792bf479d6af1eea2c8b51b5fc27a967ebb",
+    "sha256": "e6edf52da43ac110f7240b4e8a395688d42ea7ebe90b7d649bdb5d887745a45c",
+    "change": "Remove the unreported mass-per-cost ranking; all reported methods, targets and numeric values retained",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "historical_real_data/real_data/results/sachs_ess_10/comparison.json"
+  },
+  {
+    "path": "results/sachs/sachs_ess_10/skeletons.json",
+    "source_sha256": "6812b10c7ed76e047666999afa280042e6968034443415b12915dd6c1b5b2480",
+    "sha256": "6812b10c7ed76e047666999afa280042e6968034443415b12915dd6c1b5b2480",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "historical_real_data/real_data/results/sachs_ess_10/skeletons.json"
+  },
+  {
+    "path": "results/sachs/sachs_ess_10/mass_cache.json",
+    "source_sha256": "c1403a7655381fa0e7c2fd37b8a53f3510058cb0b3eb8a1c3b1b1dd3cec183f7",
+    "sha256": "c1403a7655381fa0e7c2fd37b8a53f3510058cb0b3eb8a1c3b1b1dd3cec183f7",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "historical_real_data/real_data/results/sachs_ess_10/mass_cache.json"
+  },
+  {
+    "path": "results/sachs/sachs_ess_10/selections.json",
+    "source_sha256": "05cb838003cecbd3e0c5dd6433aa5a025a888df68116e70f421151b3b29c207c",
+    "sha256": "3ff7a202205e23998dbfc9d887f37579d721b4b24602a888494dfdaa97f8e017",
+    "change": "Remove the unreported mass-per-cost ranking; all reported methods, targets and numeric values retained",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "historical_real_data/real_data/results/sachs_ess_10/selections.json"
+  },
+  {
+    "path": "results/sachs/sachs_ess_10/local_scores.npy",
+    "source_sha256": "2356a275950c886d0d4e8e2cb238c7f3e9bff2b287b54b1995df2e79c6df23d8",
+    "sha256": "2356a275950c886d0d4e8e2cb238c7f3e9bff2b287b54b1995df2e79c6df23d8",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "historical_real_data/real_data/results/sachs_ess_10/local_scores.npy"
+  },
+  {
+    "path": "results/sachs/sachs_ess_10/edge_probabilities.csv",
+    "source_sha256": "ffa9849b41186a0e3459b28aad0c21e54e2c7bb1924557a15c0e7002a0b418db",
+    "sha256": "ffa9849b41186a0e3459b28aad0c21e54e2c7bb1924557a15c0e7002a0b418db",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "historical_real_data/real_data/results/sachs_ess_10/edge_probabilities.csv"
+  },
+  {
+    "path": "results/sachs/sachs_absence_060/summary.json",
+    "source_sha256": "5b149706c68aa0ca39da27eb65f5479d3197e2a0aadafedfc8bd4a33f74972fb",
+    "sha256": "5b149706c68aa0ca39da27eb65f5479d3197e2a0aadafedfc8bd4a33f74972fb",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "historical_real_data/real_data/results/sachs_absence_060/summary.json"
+  },
+  {
+    "path": "results/sachs/sachs_absence_060/comparison.json",
+    "source_sha256": "5046895914b23711adf58a7974fdda86a27b4ed49036a0eefe27ba72718b4c4c",
+    "sha256": "49e8e83d4d975930e7051d8cce3af959b7fafc24a8fbe7292fa9642266c8d7b4",
+    "change": "Remove the unreported mass-per-cost ranking; all reported methods, targets and numeric values retained",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "historical_real_data/real_data/results/sachs_absence_060/comparison.json"
+  },
+  {
+    "path": "results/sachs/sachs_absence_060/skeletons.json",
+    "source_sha256": "b1d78d818f9eaaa3c4b60bb81e1709bc8f44c485ce29e3198b9d8cf2662cedd6",
+    "sha256": "b1d78d818f9eaaa3c4b60bb81e1709bc8f44c485ce29e3198b9d8cf2662cedd6",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "historical_real_data/real_data/results/sachs_absence_060/skeletons.json"
+  },
+  {
+    "path": "results/sachs/sachs_absence_060/mass_cache.json",
+    "source_sha256": "e168ddeabfa308aefc1c6bf616dfd134e1eb74855c83089475d0701541262399",
+    "sha256": "e168ddeabfa308aefc1c6bf616dfd134e1eb74855c83089475d0701541262399",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "historical_real_data/real_data/results/sachs_absence_060/mass_cache.json"
+  },
+  {
+    "path": "results/sachs/sachs_absence_060/selections.json",
+    "source_sha256": "99b7e4cafd11b6f65f44847916f44056cf1286ba33425faf3c2c4c07324b46aa",
+    "sha256": "9b5f6cf6676f84250da4697241da46a965d0d8adf9b2a5c8ac4ecd4fee1e87a2",
+    "change": "Remove the unreported mass-per-cost ranking; all reported methods, targets and numeric values retained",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "historical_real_data/real_data/results/sachs_absence_060/selections.json"
+  },
+  {
+    "path": "results/sachs/sachs_absence_060/local_scores.npy",
+    "source_sha256": "59d771d963237a9daa4e0c1cd39f6cbb13f6b771e52e2c3783d11eb930a9299e",
+    "sha256": "59d771d963237a9daa4e0c1cd39f6cbb13f6b771e52e2c3783d11eb930a9299e",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "historical_real_data/real_data/results/sachs_absence_060/local_scores.npy"
+  },
+  {
+    "path": "results/sachs/sachs_absence_060/edge_probabilities.csv",
+    "source_sha256": "5550aa2f1daafc107b33ee021dec1c891810497bc94b8b5a43c59c66e63d3df3",
+    "sha256": "5550aa2f1daafc107b33ee021dec1c891810497bc94b8b5a43c59c66e63d3df3",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "historical_real_data/real_data/results/sachs_absence_060/edge_probabilities.csv"
+  },
+  {
+    "path": "results/sachs/comparison.csv",
+    "source_sha256": "b279cb55c480ef005bb52e1c65e6e51b9bad42e98c06d91ecf5480898bb87010",
+    "sha256": "8165c19c59a9c37108eb4001470361115cb548e2a4fbea4cbc5e2c9f2b1d44a6",
+    "change": "Remove the unreported mass-per-cost ranking; all reported methods, targets and numeric values retained",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "historical_real_data/real_data/results/sachs_comparison.csv"
+  },
+  {
+    "path": "LICENSE",
+    "source_sha256": "147ba918373f0bfeb6660cbb8993eadb2cd219791089d95329fdddde9407b3c7",
+    "sha256": "147ba918373f0bfeb6660cbb8993eadb2cd219791089d95329fdddde9407b3c7",
+    "change": "Byte-identical copy",
+    "origin_saved_file": "computation/repo_package/compressing-posteriors-over-redundant-representations/LICENSE"
+  },
+  {
+    "path": "docs/licenses/bayesian_network_LICENSE",
+    "source_sha256": "5fa4354c846a5dff1b7ae97787f368fc83e100248d38bc67ccbc9794f5fa0c7c",
+    "sha256": "5fa4354c846a5dff1b7ae97787f368fc83e100248d38bc67ccbc9794f5fa0c7c",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "bayesian_network_exact/LICENSE"
+  },
+  {
+    "path": "docs/licenses/bma_selectors_LICENSE",
+    "source_sha256": "5fa4354c846a5dff1b7ae97787f368fc83e100248d38bc67ccbc9794f5fa0c7c",
+    "sha256": "5fa4354c846a5dff1b7ae97787f368fc83e100248d38bc67ccbc9794f5fa0c7c",
+    "change": "Byte-identical copy",
+    "origin_archive": "supplement.zip",
+    "origin_archive_sha256": "3719e83193ace944c52cf2320335c37cb58befab88f979550165bf3018ecad28",
+    "archive_member": "studies/review_revision_20261001/LICENSE"
+  },
+  {
+    "path": "scripts/plot_scaling.py",
+    "origin_saved_file": "computation/analysis/representation_complexity_20261013/make_scaling.py",
+    "source_sha256": "02b2b550ac9a6f5928c75f1cb0c675afc6bf416b48ece9bf869ad712be1ebd03",
+    "sha256": "d24169d0b0858d2c81799f0eab875d555d34a9d1f54c7b0909c90323b0a598d2",
+    "change": "Adapt paths and retained outcome count; plotted values unchanged"
+  },
+  {
+    "path": "scripts/plot_network.py",
+    "origin_saved_file": "computation/analysis/representation_complexity_20261013/make_network.py",
+    "source_sha256": "0fe386622f6a863d291f7856db94b46b49a110eb55b1d9fc0baf86f95b45616f",
+    "sha256": "09c7e8aea80519eaf3b80433e6e08e503125177d66700cc8ecbdef5bda5a0509",
+    "change": "Adapt paths; plotted values unchanged"
+  },
+  {
+    "path": "scripts/plot_components.R",
+    "origin_saved_file": "computation/analysis/representation_complexity_20261013/make_component.R",
+    "source_sha256": "daccf11a75bc957534d422cc3b5837ac3c9477fe57f2d6ebd38c198b9bc65978",
+    "sha256": "234d2620141bdf656961ff9c53e56cae83fd79c2e7e0fc4a9172d9992b576da0",
+    "change": "Adapt paths and figure-number comment; plot instructions unchanged"
+  },
+  {
+    "path": "scripts/plot_sachs.py",
+    "origin_saved_file": "computation/analysis/figure_fonts_20261004/make_network_figures.py",
+    "source_sha256": "9c6a16cc13ea419a358cf9facac3933b27747d791cf8af98b665f724615ff33e",
+    "sha256": "60896a117a264878c580259ac6ed9a7b5a7fcf3f83a37d366d685a73ef5289af",
+    "change": "Extract Sachs plotting block and settings; adapt paths; graph structures and values unchanged"
+  },
+  {
+    "path": "scripts/recompute_component_intervals.py",
+    "origin_saved_file": "computation/analysis/bma_confirmatory_20261001/analyze.py",
+    "source_sha256": "5bff92a8a0cded62efe8484cf955b4d8f1ad10ee29a966a43cf766ce2e62ebdc",
+    "sha256": "3197deb0289efab4f01bfedcc9fb072ffbfad85d1428c559cf97dbdb0b51bef6",
+    "change": "Retain original bootstrap function, seed and paired comparison loop; use retained outcome CSV and explicit new output directory"
+  },
+  {
+    "path": "scripts/recompute_scaling_intervals.py",
+    "origin_saved_file": "computation/analysis/code_release_20261019/inputs/studies/scaling_revision_20261002/analyze_scaling.py",
+    "source_sha256": "89db0cb14fdce1ca98aa45da3998c2d37eab35ad46c001b93a848a92d67dfd20",
+    "sha256": "9c61715a108cdc5f9d72907f39d3aacd8b305e4f48d1c6fb52c9b62bda87cc9c",
+    "change": "Retain original analysis for reported methods, random seed and contrast order; remove unreported optimizer contrast and adapt input/output paths"
+  },
+  {
+    "path": "scripts/extract_trace_diagnostics.R",
+    "origin_saved_file": "computation/analysis/code_release_20261019/inputs/studies/method_revision_20261002/reanalysis/extract_saved_traces.R",
+    "source_sha256": "abcb4a34381803ff2ea50c662c4fcca7c4d576ee6a44030cb15e1f53ad6106ff",
+    "sha256": "4795873e718a075967a9a77a5c189c680a58b39e25e8af728128414eb0424426",
+    "change": "Adapt archive and output paths to command-line inputs; extraction formulas unchanged"
+  }
+]

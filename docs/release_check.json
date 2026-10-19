@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "scope": "Preparation and saved-result checks only",
+  "new_simulations": false,
+  "scientific_searches_rerun": false,
+  "bootstrap_resampling": false,
+  "retained_record_counts": {
+    "bma_scaling": 1200,
+    "bma_components": 10400,
+    "bma_selectors": 144,
+    "bayesian_network": 1600,
+    "tecator": 6,
+    "sachs_specifications": 3
+  },
+  "checks": {
+    "empirical_tables_rebuilt": true,
+    "paired_point_estimates_checked": true,
+    "original_bootstrap_endpoints_retained": true,
+    "four_figures_rebuilt": true,
+    "plot_values_match_saved_originals": true,
+    "rebuilt_figure_fonts_embedded": true,
+    "rebuilt_figures_visually_reviewed": true,
+    "current_Tecator_records_match_patterns_and_channel_probabilities": true,
+    "all_R_sources_parse": true,
+    "all_Python_sources_parse": true,
+    "run_one_R_expression_preserved_exactly": true,
+    "all_six_study_workspaces_prepare_without_execution": true,
+    "original_submission_artifacts_unchanged": true
+  },
+  "limitations": [
+    "Full experiment execution and native compiler setup were not exercised.",
+    "Time-limited reruns can differ on another machine.",
+    "Large intermediate simulation RDS archives are not included; complete retained outcomes, seeds and supporting compact diagnostic records are included."
+  ]
+}

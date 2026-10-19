@@ -1,2 +1,7 @@
-* text=auto eol=lf
-supplement/** -text
+# Preserve the exact bytes covered by MANIFEST.json on every platform.
+* -text
+*.pdf binary
+*.rds binary
+*.npy binary
+*.npz binary
+*.gz binary

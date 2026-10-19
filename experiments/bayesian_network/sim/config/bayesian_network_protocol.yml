@@ -1,0 +1,89 @@
+schema_version: 1
+protocol_id: bayesian-network-skeleton-study-2026-08-26
+status: frozen_before_production
+frozen_on: 2026-08-26
+scope: >-
+  Exact-reference transfer evaluation on a finite discrete posterior outside
+  regression. Every registered run uses complete enumeration of the five-node
+  DAG space; the study does not make a large-graph scalability claim.
+
+validated_claims:
+  - exact optimization and cost-sandwich correctness in a non-BMA state space
+  - compression relative to a posterior-ranked list of individual DAGs
+  - stability of the exact selected cost under two data-independent tree orders
+  - error in posterior skeleton-edge probabilities after regional restriction
+
+state_space:
+  variables: 5
+  variable_type: binary
+  state_encoding: >-
+    One ternary coordinate per unordered node pair: zero means no edge, one
+    means lower-to-upper, and two means upper-to-lower. Cyclic configurations
+    are excluded, leaving 29,281 DAGs.
+  scientific_target: undirected_skeleton
+  region: all_DAGs_satisfying_a_partial_or_complete_skeleton_specification
+  declared_tree_nodes: 2047
+  terminal_regions: 1024
+
+posterior:
+  marginal_likelihood: BDeu
+  equivalent_sample_size: 1
+  graph_prior: >-
+    Each unordered pair is absent with probability 0.8 and has either
+    direction with probability 0.1, conditioned on acyclicity.
+  edge_probability: 0.20
+
+data_model:
+  generating_edges: [1->3, 2->3, 2->4, 3->5, 4->5]
+  sample_sizes: [100, 300]
+  signal_levels: [0.7, 1.2]
+  production_replications_per_cell: 50
+  conditional_model: >-
+    Binary logistic conditionals in topological order, with centered parent
+    indicators and the total parent contribution scaled by the square root of
+    the parent count.
+
+selection:
+  epsilon: [0.01, 0.05, 0.10, 0.20]
+  tree_orders: [lexicographic, reverse]
+  complete_region_cost: one_plus_number_of_skeleton_edges
+  exact_reference: complete_DAG_enumeration
+  interval_modes: [exact]
+  baselines:
+    - posterior_ranked_DAG_list
+    - posterior_ranked_skeleton_list
+    - exact_minimum_cost_skeleton_union
+
+stochastic_mode_decision: >-
+  No stochastic Bayesian-network mode is registered. In the design pilot,
+  data-independent uniform orientation proposals produced regional log-weight
+  ranges too wide for a useful simultaneous finite-sample preflight. A
+  full-score oracle proposal would remove that difficulty only by assuming the
+  quantity being estimated. The existing sparse-BMA study remains the
+  evaluation of stochastic regional evidence.
+
+production_settings:
+  score_budget: 10000
+  action_budget: 10000
+
+seed_registry:
+  production_base: 202609000
+  data_seed_formula: >-
+    base + 100000*sample_size_index + 10000*signal_index + replication.
+  algorithm_seed_formula: >-
+    data_seed + 100*tree_order_index + 10*epsilon_index.
+
+acceptance_checks:
+  requirements:
+    - all 1600 registered rows are present
+    - every search closes with bounds met
+    - every selected cost equals the exact minimum-cost skeleton union
+    - every omitted mass is at most its declared epsilon
+    - the two tree orders return the same exact selected cost in every matched cell
+    - median selected-to-ranked-DAG cost ratio is below 0.50 in every design cell
+    - no budget overshoot or implementation error
+
+reporting:
+  retain_all_production_rows: true
+  summarize_failures_in_denominator: true
+  exclude_pilot_results_from_manuscript: true

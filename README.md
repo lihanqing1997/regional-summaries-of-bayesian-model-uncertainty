@@ -1,66 +1,54 @@
-# Compressing Posteriors over Redundant Representations
+# Regional Summaries of Bayesian Model Uncertainty
 
-This repository contains the code and exact-reference audit artifacts for
-certified regional compression of finite discrete posteriors.
+Code, data and saved results for the current TMLR manuscript, including its appendices. Start with the saved-result workflow below. It does not fit models, run searches, generate datasets or recompute bootstrap intervals.
 
-The method selects a minimum-declared-cost union of disjoint regions under an
-omitted-mass tolerance. It reports a feasible retained union, an omitted-mass
-bound, lower and upper bounds on the constrained optimum, and a certified cost
-gap. The included study evaluates the method in sparse Gaussian Bayesian model
-averaging with aligned, perturbed, and crossed region trees.
+## Rebuild the reported results
+
+Use Python 3.12 or later, R, and Ghostscript. Install the Python plotting dependencies with `python -m pip install -r requirements.txt`. R's standard graphics package draws Figure 3; no additional R package is needed for this rebuild. Make `Rscript` and `gs` available on your executable path, or pass their locations with `--rscript` and `--gs`.
+
+```sh
+python scripts/verify_package.py
+python scripts/rebuild.py
+```
+
+The rebuild writes four empirical figures and Tables 4, 5 and 7–12 to `build/`, alongside their numerical values. It checks the paired point estimates against the original analysis and reads the saved bootstrap endpoints. The supplied `figures/` PDFs are the exact manuscript assets. Rendering can differ across graphics-library versions; the underlying numerical values are checked separately.
+
+`requirements-rebuild-tested.txt` records the Python versions used for the successful release check. The check environment is recorded separately from the original experiment environment in `docs/`.
 
 ## Contents
 
-`supplement/` is the verified reproducibility package accompanying the
-manuscript. It contains:
+| Directory | Contents |
+|---|---|
+| `src/` | BMA implementations and the two Bayesian-network implementations |
+| `experiments/` | Data-generation code, registered settings, seeds and study workers |
+| `data/` | Tecator and Sachs inputs, with source information |
+| `results/` | Saved outcomes, reported comparisons and supporting audit records |
+| `scripts/` | Saved-result rebuild, integrity checks and explicit experiment launchers |
+| `figures/` | The four external PDFs used in the manuscript |
+| `docs/` | Paper-to-code map, reproduction details, provenance and environment |
 
-- the active R implementation and exact Gaussian BMA helpers;
-- the frozen exact-study protocol and deterministic seed rules;
-- six result tables with 4,800 registered method-setting runs;
-- derived summaries and the seven-check audit;
-- release, protocol, and unit-test scripts.
+The retained results comprise 1,200 main/stress BMA estimator outcomes, 10,400 component-study outcomes, 144 matched-selector outcomes, 1,600 network-simulation outcomes, all six Tecator conditions, and all three Sachs posterior specifications. The component study includes 9,600 primary searches on 2,400 independent datasets. Repeated targets and variants do not constitute new independent datasets. The two MC3 estimators share each sampling run.
 
-## Requirements
+Every attempt belonging to a retained comparison remains included, including failures and nonreturns. The unreported optimizer ablation, sampler-repeat family, larger-space extension, obsolete real-data analysis and historical development runs are excluded. Selection rules and original input hashes are recorded in `docs/source_provenance.json`.
 
-- R 4.4.2 or a compatible recent R release
-- the CRAN package `yaml`
-- `certutil` on Windows, or `sha256sum`/`shasum` on Unix-like systems
+## Rerun an experiment explicitly
 
-## Verify the released artifact
+Full experiments are optional and can be expensive. They need the additional dependencies in `requirements-experiments.txt`, the R packages listed in `requirements-r.R`, and a C++17 toolchain with MPFR and GMP development libraries. See [reproduction details](docs/reproduction.md).
 
-Run the following commands from `supplement/`:
+```sh
+# Prepare a new workspace without running any scientific computation.
+python scripts/run_experiment.py bma_scaling --output ../scaling-run
 
-```text
-Rscript sim/verify_release.R
-Rscript sim/validate_study_protocol.R
-Rscript sim/run_region_restricted_smc_unit_tests.R
-Rscript sim/run_constrained_region_search_unit_tests.R
-Rscript sim/run_factorized_region_mass_unit_tests.R
+# Prepare another new workspace and explicitly start the full experiment.
+python scripts/run_experiment.py bma_scaling --output ../scaling-full --execute
 ```
 
-The release verifier checks the 23-file manifest, SHA-256 hashes, 4,800
-registered rows, protocol grid, seed formulas, budget accounting, summaries,
-and reported audit results.
+Available study names are `bma_scaling`, `bma_components`, `bma_selectors`, `bayesian_network`, `tecator` and `sachs`. The launcher requires a new directory outside this package, so it cannot overwrite the supplied results. Time-limited searches may produce different stopping outcomes on a different machine. The packaged results remain the evidence used in the paper.
 
-## Recompute derived outputs
+See [the paper map](docs/paper_map.md) for exact figure/table inputs and [the code guide](docs/code_guide.md) for the implementation entry points. Saved records and the clean-workspace preparation were checked for this release; the full experiments were not rerun.
 
-From `supplement/`, write recomputed files outside the verified artifact:
+## Citation and licenses
 
-```text
-Rscript sim/audit_constrained_exact_production.R ../recomputed/constrained_exact_audit.csv
-Rscript sim/summarize_study_results.R ../recomputed/constrained_exact_summary.csv
-Rscript sim/make_study_figures.R ../recomputed/figures
-```
+`CITATION.cff` identifies the manuscript authors and this local code-package version. No publication DOI or GitHub release is claimed. The existing repository's MIT notice is preserved verbatim in `LICENSE`; inherited notices are retained under `docs/licenses/`. The original Tecator redistribution note is included with its data. Data-source attribution and terms remain separate from the software license; see [data sources](data/README.md).
 
-Full production is computationally expensive and is not required for artifact
-verification. See `supplement/REPRODUCTION.txt` for the registered single-run
-example and additional details.
-
-## Scope
-
-The package supports the reported exact optimization, cost-sandwich,
-omitted-mass, stochastic interval-coverage, and grouping-sensitivity results.
-
-## License
-
-The software is released under the MIT License. See `LICENSE`.
+This is a named package prepared for the public repository. The anonymous TMLR submission package is maintained separately.

@@ -1,0 +1,22 @@
+{
+  "purpose": "Saved-result package check, not the original experimental environment",
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "python": "3.12.14",
+  "R": "4.5.0",
+  "Ghostscript": "10.03.0",
+  "python_packages": {
+    "numpy": "2.5.4",
+    "pandas": "2.2.3",
+    "matplotlib": "3.11.2",
+    "pypdf": "6.10.0",
+    "contourpy": "1.4.0",
+    "cycler": "0.12.1",
+    "fonttools": "4.67.0",
+    "kiwisolver": "1.5.1",
+    "packaging": "26.3",
+    "pillow": "13.0.0",
+    "pyparsing": "3.3.3",
+    "python-dateutil": "2.9.0.post0",
+    "six": "1.17.0"
+  }
+}

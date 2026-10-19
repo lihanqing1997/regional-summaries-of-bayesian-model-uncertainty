@@ -1,0 +1,7 @@
+variant,target,method,status,retained_mass,cost,cost_lower_bound,mandatory_region_cost,max_edge_error,cost_gap_upper,global_cost_optimal_numerically,entries,global_ranking_verified
+primary,0.95,optimized,mass_target_met_numerically,0.9882546662497476,9,9.0,9.0,0.0115815735997915,0.0,True,1,
+primary,0.99,optimized,mass_target_met_numerically,0.999834321026982,19,19.0,19.0,9.652888710987018e-05,0.0,True,2,
+ess_10,0.95,optimized,mass_target_met_numerically,0.9709254019161928,11,11.0,11.0,0.010223552553715,0.0,True,1,
+ess_10,0.99,optimized,mass_target_met_numerically,0.9907402623669052,33,32.09226167670221,21.0,0.0021098620813104,0.9077383232977922,True,3,
+absence_060,0.95,optimized,mass_target_met_numerically,0.969600096027421,9,9.0,9.0,0.0302993395491549,0.0,True,1,
+absence_060,0.99,optimized,mass_target_met_numerically,0.9998962933334026,19,19.0,19.0,3.620183540642419e-05,0.0,True,2,

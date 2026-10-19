@@ -1,0 +1,42 @@
+{
+  "retrieved_utc": "2026-09-28T20:32:30.174035+00:00",
+  "sources": [
+    {
+      "file": "data\\raw\\sachs.data.txt.gz",
+      "url": "https://www.bnlearn.com/book-crc/code/sachs.data.txt.gz",
+      "sha256": "3b65a3c4fe642d8f9f9562fe798edbafd5aaefe80caecd7f9ec5dea2fbe86d03",
+      "bytes": 16917
+    },
+    {
+      "file": "data\\raw\\sachs.discretised.txt.gz",
+      "url": "https://www.bnlearn.com/book-crc/code/sachs.discretised.txt.gz",
+      "sha256": "38f9dc827808948fb76dc20ce8bec7bcad2f5e903eeea5627701d8d0cb2ddeb6",
+      "bytes": 4850
+    }
+  ],
+  "sachs": {
+    "rows": 853,
+    "nodes": [
+      "Raf",
+      "Mek",
+      "Plcg",
+      "PIP2",
+      "PIP3",
+      "Erk",
+      "Akt",
+      "PKA",
+      "PKC",
+      "P38",
+      "Jnk"
+    ],
+    "levels": 3,
+    "missing": 0,
+    "source": "bnlearn book companion observational data; use supplied discretization without refitting",
+    "condition": "general pathway stimulation; no pooling of targeted intervention conditions"
+  },
+  "processed_sha256": {
+    "data\\processed\\sachs.npz": "067d093606df29d11ea2f46db336235512a632e5f3148442ef74a505e060883e",
+    "data\\processed\\sachs_discrete.csv": "3c9130a74b21cc59572467fe1cdbe4090314aa6b3f3d9137c7653706c141cd9f",
+    "data\\processed\\sachs_observed_bin_ranges.json": "af806c99a77d26aa0b6a2846c2582c51f71572b248d4b955a0e70c31afda41e2"
+  }
+}

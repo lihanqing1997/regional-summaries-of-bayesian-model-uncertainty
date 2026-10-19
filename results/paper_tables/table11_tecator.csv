@@ -1,0 +1,7 @@
+dataset,epsilon,status,calls,seconds,lower,cost,omitted_bound,audit_mass,exact_optimum,feasible,certified,audit,looks,all_looks_covered,target,omitted_bound_rounded_up
+tecator_sigma_0.25,0.1,certified,16343,33.9,43,43,0.0955215226088994,0.923539239347462,43,True,True,passed,32,True,0.9,0.095522
+tecator_sigma_0.25,0.05,certified,38615,36.85,44,44,0.0499584790565392,0.953188273513092,44,True,True,passed,46,True,0.95,0.049959
+tecator_sigma_0.5,0.1,budget_exhausted,49879,25.89,59,67,0.0962325591529053,0.910130824780319,59,True,False,passed,79,True,0.9,0.096233
+tecator_sigma_0.5,0.05,budget_exhausted,49879,26.46,92,101,0.0479759984252058,0.955359993542587,93,True,False,passed,81,True,0.95,0.047976
+tecator_sigma_1,0.1,certified,32033,15.53,135,135,0.0998992599642272,0.904621347123765,135,True,True,passed,67,True,0.9,0.0999
+tecator_sigma_1,0.05,certified,40737,16.66,177,177,0.0480554007199765,0.954179140141025,177,True,True,passed,77,True,0.95,0.048056

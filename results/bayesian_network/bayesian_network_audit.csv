@@ -1,0 +1,10 @@
+"check","passed","value","required"
+"expected_registered_rows",TRUE,1600,1600
+"unique_registered_keys",TRUE,1600,1600
+"all_bounds_met",TRUE,1,1
+"all_exact_cost_optimal",TRUE,1,1
+"all_cost_sandwich_covered",TRUE,1,1
+"all_epsilon_feasible",TRUE,1,1
+"tree_order_cost_agreement",TRUE,1,1
+"cell_median_cost_ratio_below_half",TRUE,0.275252525252526,0.5
+"no_implementation_error",TRUE,0,0

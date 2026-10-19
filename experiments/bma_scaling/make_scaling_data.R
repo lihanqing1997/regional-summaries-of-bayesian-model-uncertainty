@@ -1,0 +1,10 @@
+index <- as.integer(commandArgs(TRUE)[1L])
+setwd('core');source('production.R');source('../scaling_data.R')
+stopifnot(file.exists('../scaling_freeze.json'))
+datasets <- read.csv('../scaling_config/datasets.csv',stringsAsFactors=FALSE)
+row <- datasets[index,];out <- file.path('../scaling_results',row$dataset)
+dir.create(out,recursive=TRUE,showWarnings=FALSE)
+path <- file.path(out,'data.rds')
+if(!file.exists(path))atomic_rds(make_scaling_data(row),path)
+write_json(list(dataset=row$dataset,config=as.list(row),data_md5=unname(tools::md5sum(path))),
+  file.path(out,'data_manifest.json'))

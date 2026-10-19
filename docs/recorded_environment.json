@@ -1,0 +1,14 @@
+{
+  "started_at_utc": "2026-10-02T10:13:57.196159+00:00",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "workers": 1,
+  "locale": "C",
+  "timezone": "UTC",
+  "R": "4.4.2",
+  "processor": "not captured",
+  "RAM": "not captured",
+  "component_workers": "1 to 3",
+  "timing_scope": "Practical search time excludes interpreter startup, data loading, compilation and independent audits. Matched score ceilings do not imply matched elapsed time.",
+  "sachs_timing": "Saved runs reused caches; not cold-start timing comparisons."
+}

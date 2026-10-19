@@ -1,0 +1,4 @@
+method,n,feasible,certified,mean_complexity_reduction,lower,equal,higher
+ars,48,48,22,,,,
+mass,48,48,13,0.021370227032930105,29.0,18.0,1.0
+mass_cost,48,48,13,0.02230189228316758,30.0,17.0,1.0

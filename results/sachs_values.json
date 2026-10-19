@@ -1,0 +1,140 @@
+[
+  {
+    "target": 0.95,
+    "skeletons": [
+      "0x30210008180001"
+    ],
+    "edges": [
+      {
+        "nodes": [
+          "Raf",
+          "Mek"
+        ],
+        "shared": true
+      },
+      {
+        "nodes": [
+          "Plcg",
+          "PIP2"
+        ],
+        "shared": true
+      },
+      {
+        "nodes": [
+          "Plcg",
+          "PIP3"
+        ],
+        "shared": true
+      },
+      {
+        "nodes": [
+          "PIP2",
+          "PIP3"
+        ],
+        "shared": true
+      },
+      {
+        "nodes": [
+          "Erk",
+          "Akt"
+        ],
+        "shared": true
+      },
+      {
+        "nodes": [
+          "Akt",
+          "PKA"
+        ],
+        "shared": true
+      },
+      {
+        "nodes": [
+          "PKC",
+          "P38"
+        ],
+        "shared": true
+      },
+      {
+        "nodes": [
+          "PKC",
+          "Jnk"
+        ],
+        "shared": true
+      }
+    ],
+    "retained_mass": 0.9882546662497477
+  },
+  {
+    "target": 0.99,
+    "skeletons": [
+      "0x30210008180001",
+      "0x30230008180001"
+    ],
+    "edges": [
+      {
+        "nodes": [
+          "Raf",
+          "Mek"
+        ],
+        "shared": true
+      },
+      {
+        "nodes": [
+          "Plcg",
+          "PIP2"
+        ],
+        "shared": true
+      },
+      {
+        "nodes": [
+          "Plcg",
+          "PIP3"
+        ],
+        "shared": true
+      },
+      {
+        "nodes": [
+          "PIP2",
+          "PIP3"
+        ],
+        "shared": true
+      },
+      {
+        "nodes": [
+          "Erk",
+          "Akt"
+        ],
+        "shared": true
+      },
+      {
+        "nodes": [
+          "Erk",
+          "PKA"
+        ],
+        "shared": false
+      },
+      {
+        "nodes": [
+          "Akt",
+          "PKA"
+        ],
+        "shared": true
+      },
+      {
+        "nodes": [
+          "PKC",
+          "P38"
+        ],
+        "shared": true
+      },
+      {
+        "nodes": [
+          "PKC",
+          "Jnk"
+        ],
+        "shared": true
+      }
+    ],
+    "retained_mass": 0.9998343210269821
+  }
+]

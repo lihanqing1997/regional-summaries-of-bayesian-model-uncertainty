@@ -1,0 +1,4 @@
+method,attempts,feasible,optimum_attained,optimum_certified,median_complexity_ratio,median_seconds
+ars_newton,40,40,7,0.0,1.60960144927536,131.49
+mc3_frequency,40,38,29,,1.0,5.85
+mc3_renormalized,40,3,3,,1.0,5.85

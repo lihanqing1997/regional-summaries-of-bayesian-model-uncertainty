@@ -1,0 +1,26 @@
+{
+  "config": {
+    "name": "absence_060",
+    "ess": 1,
+    "absence": 0.6
+  },
+  "normalizer_log": -8587.071149488173,
+  "normalizer_shifted_log": -948.6168118014839,
+  "preparation_seconds": 1.93260459999874,
+  "total_seconds": 79.2747905999986,
+  "mass_calls": 191,
+  "cached_mass_regions": 191,
+  "expanded": 68,
+  "discovered_skeletons": 4,
+  "discovered_mass": 0.9999037374735797,
+  "remaining_frontier_mass": 9.62625269811116e-05,
+  "partition_max_absolute_error": 7.686073999479959e-13,
+  "orientation_max_absolute_error": 1.8792745137830025e-12,
+  "enumerated_dags": 1200,
+  "skipped_skeletons": [],
+  "full_state_space": "all DAGs on 11 labelled nodes",
+  "numerical_status": "positive dynamic-program summation; floating-point validation, not interval arithmetic",
+  "stop_reason": "target_mass_discovered",
+  "summary_replay_seconds": 0.8264593000003515,
+  "timing_note": "Original completed execution retained; replay uses mass cache. Primary execution reused 20 pre-repair cached regions; timings are not cold-start comparisons."
+}
